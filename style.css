@@ -286,3 +286,17 @@ h1{
 nav{
   float: right;
 }
+
+.main-header{
+  background-color: #1057ad;
+}
+
+.clear{
+  clear:  both;
+}
+
+.clearfix::after{
+  clear:  both;
+  content: '';
+  display: block
+}
